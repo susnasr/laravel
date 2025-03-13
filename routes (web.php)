@@ -1,0 +1,29 @@
+<?php
+
+Route::get('/', function() {
+    return view('dunno');
+});
+
+
+Route::get('lolz', function() {
+    return view('Welcome');
+});
+
+Route::get('/qwe', function() {
+    return view ('index', [
+        'situation' => 'over the moon',
+        'tum'=> 'tap tap'
+    ]);
+});
+
+Route::get('rizz/{nasr}', function($name) {
+    return 'Aslam U alaikum jaik hal han sam hn aeja ' . $name;
+});
+
+Route::get('shabash', function(){
+    return redirect('lolz');
+});
+
+Route::get('pinns', function() {
+    return 'kings eleven punjab';
+});
