@@ -1,0 +1,15 @@
+<div>
+    yooo sup wsgudd hny<br>
+joja hoha nona <br>
+</div>
+
+@isset($situation)
+@isset($tum)
+    
+
+<div>ara wah re wah re aj to {{ $situation }} mein lgra ho <br>
+tum na aaj kal aik dusra ki {{ $tum }} kia tha na</div>
+
+
+@endisset
+@endisset
