@@ -1,2 +1,4 @@
 # laravel
-routing 
+Basics
+Routing
+Blade template
